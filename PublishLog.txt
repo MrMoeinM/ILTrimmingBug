@@ -1,0 +1,406 @@
+Build started at 11:31 PM...
+1>------ Build started: Project: ILTrimmingBug.Client, Configuration: Release Any CPU ------
+Restored V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.csproj (in 180 ms).
+Restored V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\ILTrimmingBug.Client.csproj (in 232 ms).
+1>ILTrimmingBug.Client -> V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\bin\Release\net8.0\ILTrimmingBug.Client.dll
+1>ILTrimmingBug.Client (Blazor output) -> V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\bin\Release\net8.0\wwwroot
+2>------ Build started: Project: ILTrimmingBug, Configuration: Release Any CPU ------
+2>ILTrimmingBug -> V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug\bin\Release\net8.0\ILTrimmingBug.dll
+3>------ Publish started: Project: ILTrimmingBug, Configuration: Release Any CPU ------
+Connecting to V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug\..\publish...
+ILTrimmingBug -> V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug\bin\Release\net8.0\ILTrimmingBug.dll
+Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+Optimizing assemblies for size. This process might take a while.
+C:\Program Files\dotnet\dotnet.exe "C:\Users\Moein\.nuget\packages\microsoft.net.illink.tasks\8.0.8\tools\net8.0\illink.dll" -a "obj\Release\net8.0\ILTrimmingBug.Client.dll" EntryPoint
+--singlewarn
+--trim-mode link
+--action copy
+-reference "C:\Users\Moein\.nuget\packages\microsoft.aspnetcore.authorization\8.0.8\lib\net8.0\Microsoft.AspNetCore.Authorization.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.aspnetcore.components\8.0.8\lib\net8.0\Microsoft.AspNetCore.Components.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.aspnetcore.components.forms\8.0.8\lib\net8.0\Microsoft.AspNetCore.Components.Forms.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.aspnetcore.components.web\8.0.8\lib\net8.0\Microsoft.AspNetCore.Components.Web.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.aspnetcore.components.webassembly\8.0.8\lib\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.aspnetcore.metadata\8.0.8\lib\net8.0\Microsoft.AspNetCore.Metadata.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.configuration.binder\8.0.2\lib\net8.0\Microsoft.Extensions.Configuration.Binder.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.configuration.fileextensions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.configuration.json\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Json.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.fileproviders.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.fileproviders.physical\8.0.0\lib\net8.0\Microsoft.Extensions.FileProviders.Physical.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.filesystemglobbing\8.0.0\lib\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.options\8.0.2\lib\net8.0\Microsoft.Extensions.Options.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.jsinterop\8.0.8\lib\net8.0\Microsoft.JSInterop.dll"
+-reference "C:\Users\Moein\.nuget\packages\microsoft.jsinterop.webassembly\8.0.8\lib\net8.0\Microsoft.JSInterop.WebAssembly.dll"
+-reference "C:\Users\Moein\.nuget\packages\system.io.pipelines\8.0.0\lib\net8.0\System.IO.Pipelines.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\Microsoft.CSharp.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\Microsoft.VisualBasic.Core.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\Microsoft.VisualBasic.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\Microsoft.Win32.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\Microsoft.Win32.Registry.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.AppContext.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Buffers.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Collections.Concurrent.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Collections.Immutable.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Collections.NonGeneric.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Collections.Specialized.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Collections.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ComponentModel.Annotations.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ComponentModel.DataAnnotations.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ComponentModel.EventBasedAsync.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ComponentModel.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ComponentModel.TypeConverter.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ComponentModel.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Configuration.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Console.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Core.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Data.Common.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Data.DataSetExtensions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Data.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.Contracts.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.Debug.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.DiagnosticSource.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.FileVersionInfo.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.Process.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.StackTrace.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.TextWriterTraceListener.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.Tools.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.TraceSource.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Diagnostics.Tracing.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Drawing.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Drawing.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Dynamic.Runtime.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Formats.Asn1.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Formats.Tar.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Globalization.Calendars.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Globalization.Extensions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Globalization.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.Compression.Brotli.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.Compression.FileSystem.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.Compression.ZipFile.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.Compression.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.FileSystem.AccessControl.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.FileSystem.DriveInfo.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.FileSystem.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.FileSystem.Watcher.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.FileSystem.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.IsolatedStorage.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.MemoryMappedFiles.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.Pipes.AccessControl.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.Pipes.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.UnmanagedMemoryStream.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.IO.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Linq.Expressions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Linq.Parallel.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Linq.Queryable.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Linq.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Memory.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Http.Json.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Http.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.HttpListener.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Mail.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.NameResolution.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.NetworkInformation.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Ping.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Quic.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Requests.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Security.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.ServicePoint.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.Sockets.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.WebClient.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.WebHeaderCollection.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.WebProxy.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.WebSockets.Client.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.WebSockets.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Net.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Numerics.Vectors.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Numerics.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ObjectModel.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Private.DataContractSerialization.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Private.Uri.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Private.Xml.Linq.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Private.Xml.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.DispatchProxy.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.Emit.ILGeneration.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.Emit.Lightweight.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.Emit.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.Extensions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.Metadata.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.TypeExtensions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Reflection.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Resources.Reader.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Resources.ResourceManager.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Resources.Writer.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.CompilerServices.Unsafe.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.CompilerServices.VisualC.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Extensions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Handles.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.InteropServices.JavaScript.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.InteropServices.RuntimeInformation.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.InteropServices.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Intrinsics.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Loader.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Numerics.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Serialization.Formatters.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Serialization.Json.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Serialization.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Serialization.Xml.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.Serialization.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Runtime.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.AccessControl.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Claims.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.Algorithms.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.Cng.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.Csp.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.Encoding.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.OpenSsl.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.Primitives.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.X509Certificates.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Cryptography.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Principal.Windows.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.Principal.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.SecureString.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Security.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ServiceModel.Web.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ServiceProcess.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Text.Encoding.CodePages.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Text.Encoding.Extensions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Text.Encoding.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Text.Encodings.Web.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Text.Json.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Text.RegularExpressions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Channels.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Overlapped.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Tasks.Dataflow.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Tasks.Extensions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Tasks.Parallel.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Tasks.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Thread.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.ThreadPool.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.Timer.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Threading.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Transactions.Local.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Transactions.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.ValueTuple.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Web.HttpUtility.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Web.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Windows.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.Linq.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.ReaderWriter.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.Serialization.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.XDocument.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.XPath.XDocument.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.XPath.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.XmlDocument.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.XmlSerializer.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.Xml.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\System.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\WindowsBase.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\mscorlib.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\lib\net8.0\netstandard.dll"
+-reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\System.Private.CoreLib.dll"
+-reference "obj\Release\net8.0\ILTrimmingBug.Client.dll"
+--singlewarn- "ILTrimmingBug.Client"
+-out "obj\Release\net8.0\linked"
+--nowarn "1701;1702;IL2121"
+--warn "5"
+--warnaserror- --warnaserror ";NU1605;SYSLIB0011"
+--feature Microsoft.Extensions.DependencyInjection.VerifyOpenGenericServiceTrimmability true
+--feature System.AggressiveAttributeTrimming true
+--feature System.ComponentModel.TypeConverter.EnableUnsafeBinaryFormatterInDesigntimeLicenseContextSerialization false
+--feature System.Diagnostics.Debugger.IsSupported false
+--feature System.Diagnostics.Tracing.EventSource.IsSupported false
+--feature System.Globalization.Invariant false
+--feature System.Net.Http.EnableActivityPropagation false
+--feature System.Reflection.Metadata.MetadataUpdater.IsSupported false
+--feature System.Reflection.NullabilityInfoContext.IsSupported false
+--feature System.Resources.ResourceManager.AllowCustomResourceTypes false
+--feature System.Resources.UseSystemResourceKeys true
+--feature System.Runtime.InteropServices.BuiltInComInterop.IsSupported false
+--feature System.Runtime.InteropServices.EnableConsumingManagedCodeFromNativeHosting false
+--feature System.Runtime.InteropServices.EnableCppCLIHostActivation false
+--feature System.Runtime.InteropServices.Marshalling.EnableGeneratedComInterfaceComImportInterop false
+--feature System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization false
+--feature System.StartupHookProvider.IsSupported false
+--feature System.Text.Encoding.EnableUnsafeUTF7Encoding false
+--feature System.Text.Json.JsonSerializer.IsReflectionEnabledByDefault true
+--feature System.Threading.Thread.EnableAutoreleasePool false
+-b
+--skip-unresolved true  --notrimwarn
+
+Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm\8.0.8\Sdk\..\tools\mono-aot-cross.exe" --print-icall-table > "V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\runtime-icall-table.h"
+Compiling native assets with emcc with -Oz. This may take a while ...
+[1/3] pinvoke.c -> pinvoke.o [took 3.84s]
+[2/3] corebindings.c -> corebindings.o [took 4.23s]
+[3/3] driver.c -> driver.o [took 4.54s]
+Linking for initial memory $(EmccInitialHeapSize)=16777216 bytes. Set this msbuild property to change the value.
+Linking with emcc with -O2. This may take a while ...
+emcc "@C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\src\emcc-default.rsp" -msimd128 "@C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\src\emcc-link.rsp" "@V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\emcc-link.rsp"
+ "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Node.win-x64\8.0.8\tools\bin\node.exe" "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Sdk.win-x64\8.0.8\tools\emscripten\src\compiler.js" C:\Users\Moein\AppData\Local\Temp\tmp68wq1ufn.json --symbols-only
+ "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Sdk.win-x64\8.0.8\tools\bin\wasm-ld.exe" -o V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\dotnet.native.wasm V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\pinvoke.o V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\driver.o V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\corebindings.o "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libicudata.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libicui18n.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libicuuc.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-component-debugger-stub-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-component-diagnostics_tracing-stub-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-component-hot_reload-stub-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-component-marshal-ilgen-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-ee-interp.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-icall-table.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-profiler-aot.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-profiler-browser.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-wasm-eh-wasm.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmono-wasm-simd.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libmonosgen-2.0.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libSystem.Globalization.Native.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libSystem.IO.Compression.Native.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\libSystem.Native.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\8.0.8\runtimes\browser-wasm\native\wasm-bundled-timezones.a" "-LC:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Cache.win-x64\8.0.8\tools\emscripten\cache\sysroot\lib\wasm32-emscripten" -lGL -lal -lhtml5 -lstubs -lnoexit -lc -ldlmalloc -lcompiler_rt-wasm-sjlj -lc++-except -lc++abi-except -lunwind-except -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -disable-lsr -mllvm -wasm-enable-eh -mllvm -exception-model=wasm --allow-undefined-file=C:\Users\Moein\AppData\Local\Temp\tmpyqrpbru9.undefined --export-if-defined=free --export-if-defined=htons --export-if-defined=malloc --export-if-defined=memalign --export-if-defined=memset --export-if-defined=ntohs --export-if-defined=stackAlloc --export-if-defined=stackRestore --export-if-defined=stackSave --export-if-defined=fmod --export-if-defined=atan2 --export-if-defined=fma --export-if-defined=pow --export-if-defined=fmodf --export-if-defined=atan2f --export-if-defined=fmaf --export-if-defined=powf --export-if-defined=asin --export-if-defined=asinh --export-if-defined=acos --export-if-defined=acosh --export-if-defined=atan --export-if-defined=atanh --export-if-defined=cbrt --export-if-defined=cos --export-if-defined=cosh --export-if-defined=exp --export-if-defined=log --export-if-defined=log2 --export-if-defined=log10 --export-if-defined=sin --export-if-defined=sinh --export-if-defined=tan --export-if-defined=tanh --export-if-defined=asinf --export-if-defined=asinhf --export-if-defined=acosf --export-if-defined=acoshf --export-if-defined=atanf --export-if-defined=atanhf --export-if-defined=cbrtf --export-if-defined=cosf --export-if-defined=coshf --export-if-defined=expf --export-if-defined=logf --export-if-defined=log2f --export-if-defined=log10f --export-if-defined=sinf --export-if-defined=sinhf --export-if-defined=tanf --export-if-defined=tanhf --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export=stackSave --export=stackRestore --export=stackAlloc --export=__errno_location --export=malloc --export=free --export=__trap --export=__wasm_call_ctors --export=ntohs --export=htons --export=__dl_seterr --export=emscripten_builtin_memalign --export=htonl --export-table --growable-table -z stack-size=5242880 --initial-memory=16777216 --no-entry --max-memory=2147483648 --global-base=1024
+ "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Node.win-x64\8.0.8\tools\bin\node.exe" "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Sdk.win-x64\8.0.8\tools\emscripten\src\compiler.js" C:\Users\Moein\AppData\Local\Temp\tmpinzo1z_1.json
+ "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Sdk.win-x64\8.0.8\tools\bin\wasm-opt" --strip-dwarf --post-emscripten -O2 --low-memory-unused --zero-filled-memory --pass-arg=directize-initial-contents-immutable --strip-debug --strip-producers V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\dotnet.native.wasm -o V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\dotnet.native.wasm -g --mvp-features --enable-exception-handling --enable-mutable-globals --enable-sign-ext --enable-simd
+ "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Node.win-x64\8.0.8\tools\bin\node.exe" "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.34.Sdk.win-x64\8.0.8\tools\emscripten\tools\acorn-optimizer.js" C:\Users\Moein\AppData\Local\Temp\emscripten_temp_mwdf8t0n\dotnet.native.js JSDCE minifyWhitespace --exportES6 -o C:\Users\Moein\AppData\Local\Temp\emscripten_temp_mwdf8t0n\dotnet.native.jso1.js
+Stripping symbols from dotnet.native.wasm ...
+wasm-opt.exe --enable-simd --enable-exception-handling  --strip-dwarf "V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\dotnet.native.wasm" -o "V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\dotnet.native.wasm"
+C:\Program Files\dotnet\dotnet.exe "C:\Program Files\dotnet\sdk\8.0.401\Sdks\Microsoft.NET.Sdk.StaticWebAssets\targets\..\tools\net8.0\Microsoft.NET.Sdk.StaticWebAssets.Tool.dll" brotli
+-s
+"C:\Users\Moein\.nuget\packages\microsoft.aspnetcore.components.webassembly\8.0.8\build\net8.0\blazor.webassembly.js"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\otuu0giiui.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\ILTrimmingBug.Client.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\icdl801s5o.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.AspNetCore.Components.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\f0q127ehm1.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.AspNetCore.Components.Web.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\re7iwctk75.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.AspNetCore.Components.WebAssembly.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\8mgy2t3uk6.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.Configuration.Abstractions.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\i603ofi16c.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.Configuration.Json.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\eigbi3se49.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.Configuration.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\0iig5srx3i.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\eg77g1l21y.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.DependencyInjection.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\0nymr80sgz.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.Logging.Abstractions.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\r0lqov92y3.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.Logging.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\9eesbwn2vl.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.Options.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\uixvorsil7.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.Extensions.Primitives.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\yknnqlsbbg.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.JSInterop.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\rrfi33814y.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\Microsoft.JSInterop.WebAssembly.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\r11tfsp7nf.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Collections.Concurrent.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\dmdhh2uwty.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Collections.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\59tc1w7t5s.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.ComponentModel.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\uje11ihtll.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Console.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\51kc2vdcpb.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Linq.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\439wntlnm8.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Memory.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\rn3o4p30dw.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Private.CoreLib.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\auz5p99t3w.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Private.Uri.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\83trij2y82.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Runtime.InteropServices.JavaScript.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\iy45s9j12i.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Runtime.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\kuq50htry7.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Text.Encodings.Web.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\v6y5usc1yj.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\webcil\publish\System.Text.Json.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\o4jnpilnn8.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\bin\Release\net8.0\wwwroot\_framework\dotnet.js"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\1dx1ciiwkp.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\dotnet.native.js"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\y9lks9561s.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\wasm\for-publish\dotnet.native.wasm"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\hdelby42n1.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\bin\Release\net8.0\wwwroot\_framework\dotnet.runtime.8.0.8.80cvijctdx.js"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\7f6bx7gdvr.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\bin\Release\net8.0\wwwroot\_framework\icudt_CJK.dat"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\i6zf6pazd0.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\bin\Release\net8.0\wwwroot\_framework\icudt_EFIGS.dat"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\u8iimyeopg.br"
+-s
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\bin\Release\net8.0\wwwroot\_framework\icudt_no_CJK.dat"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\8kw3u5oqz0.br"
+-s
+"obj\Release\net8.0\blazor.publish.boot.json"
+-o
+"V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug.Client\obj\Release\net8.0\compressed\publish\zk81ptjwix.br"
+
+ILTrimmingBug -> V:\OpenSource\ILTrimmingBug\ILTrimmingBug\ILTrimmingBug\obj\Release\net8.0\PubTmp\Out\
+Web App was published successfully file:///V:/OpenSource/ILTrimmingBug/ILTrimmingBug/publish
+
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 11:33 PM and took 01:38.104 minutes ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========
+========== Publish completed at 11:33 PM and took 01:38.104 minutes ==========
